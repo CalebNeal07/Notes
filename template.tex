@@ -1,0 +1,28 @@
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\title{\Huge{Calculus I}\\Percise Definition of a Limit}
+\author{\huge{Caleb O'Neal}}
+\date{}
+
+\begin{document}
+
+\maketitle
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
+
+\chapter{}
+\section{}
+\dfn{Definition 2.4.1}{Let $f$ be a function defined on some open interval that contains the number $a$, except possivly $a$ itself. 
+Then we write $$\lim_{x\to a} f(x)=L$$if for every number $\epsilon > 0$ there is a number $\delta > 0$ such that if
+$$0<|x-a|<\delta$$ \begin{center}
+then
+\end{center} $$|f(x)-L|<\epsilon.$$}
+
+\end{document}
